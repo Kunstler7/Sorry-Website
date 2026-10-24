@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FFFBF3">
+  <title>🤍 I am sorry Vandana ~</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="rain" aria-hidden="true"></canvas>
+  <div class="sun-glow" id="sunGlow" aria-hidden="true"></div>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-sky" aria-hidden="true">☁️ 🌧️ 💧 ☁️ 🤍 💧</div>
+      <div class="hero-photo" id="heroPhoto"></div>
+      <h1>I am really so sorry</h1>
+      <p class="to">— Yes u, <span data-bind="herName"></span> 🤍 —</p>
+      <p class="hero-text">I'm not good at saying this out loud.<br>so I built u somewhere quiet to hear it ~<br>Take ur time with it.</p>
+      <p class="hint">it gets warmer further down ↓</p>
+    </section>
+
+    <!-- 01 HONEST PART -->
+    <section class="block" id="honest">
+      <p class="tag">✦ 01 · the honest part ✦</p>
+      <h2>here's exactly <em>what i did</em></h2>
+      <p class="sub">I've made a sorry website to seek an apology. <br> Hello kuchupuchu </p>
+
+      <article class="paper">
+        <p class="paper-title">— Just scroll down and see what have I made for u. —</p>
+        <div id="honestText"></div>
+        <p class="strike-line" id="noButs"></p>
+        <p class="paper-end" id="honestEnd"></p>
+      </article>
+    </section>
+
+    <!-- 02 THEIR SIDE -->
+    <section class="block" id="side">
+      <p class="tag">✦ 02 · your side of it ✦</p>
+      <h2>i think it <em>felt like</em> this</h2>
+      <p class="sub">This is how you dont tell what happend.<br>
+      <div class="phone">
+        <div class="phone-top">
+          <div class="avatar" id="avatar">🤍</div>
+          <div><strong data-bind="herName"></strong><small>drafts u never sent</small></div>
+        </div>
+        <div class="chat" id="chat"></div>
+        <p class="phone-foot" id="chatFoot"></p>
+      </div>
+      <p class="note" id="sideNote"></p>
+    </section>
+
+    <!-- 03 PROMISES -->
+    <section class="block" id="promises">
+      <p class="tag">✦ 03 · not just words ✦</p>
+      <h2>what actually <em>changes</em></h2>
+      <p class="sub">Tap each one to hold me to it.<br>We will imporve these things ~</p>
+
+      <p class="counter" id="counter">0 / 0</p>
+      <ul class="promises" id="promiseList"></ul>
+      <p class="counter-msg" id="counterMsg">0 ticked ~ take ur time, read them properly first</p>
+    </section>
+
+    <!-- 04 CLOUD -->
+    <section class="block sky" id="cloudSection">
+      <p class="tag">✦ 04 · the weather between us ✦</p>
+      <h2>help me <em>clear it</em> ☁️</h2>
+      <p class="sub">i can't move this one on my own.<br>push the cloud ~ three times should do it.</p>
+
+      <div class="sky-box" id="skyBox">
+        <div class="sun" id="sun">☀️</div>
+        <button class="cloud" id="cloud" aria-label="push the cloud away">☁️</button>
+        <p class="sky-hint" id="skyHint">👆 tap the cloud</p>
+      </div>
+      <p class="sky-msg" id="skyMsg">it's been grey like this for days. i know i'm the reason.</p>
+    </section>
+
+    <!-- 05 PHOTOS -->
+    <section class="block" id="photos">
+      <p class="tag">✦ 05 · what i'm asking for ✦</p>
+      <h2>This. <em>This is the us</em> A lovely couple </h2>
+      <p class="sub">i went looking through our photos last night.<br>watch the colour come back into them ~</p>
+
+      <p class="counter" id="photoCount"></p>
+      <div class="gallery" id="gallery"></div>
+      <p class="note" id="photoNote"></p>
+    </section>
+
+    <!-- 06 LETTER -->
+    <section class="block" id="letterSection">
+      <p class="tag">✦ 06 · the long version ✦</p>
+      <h2>p.s. <em>the whole thing</em></h2>
+      <p class="sub">since i had u all the way down here ~</p>
+
+      <article class="letter" id="letter"></article>
+    </section>
+
+    <!-- FINAL -->
+    <section class="block final" id="final">
+      <p class="tag">✦ the last page ✦</p>
+      <h2>it's ur call now</h2>
+      <p class="sub">no pressure, no right answer ~<br>whatever u pick ~ i'm not going anywhere.</p>
+
+      <div class="answers">
+        <button class="btn yes" id="btnYes">okay. come here 🤍</button>
+        <button class="btn wait" id="btnWait">i need more time</button>
+      </div>
+      <p class="reply" id="reply" hidden></p>
+    </section>
+
+    <footer>
+      <p>made with a very sorry heart, and a lot of thinking</p>
+      <p class="small">★ one apology · one person · no expiry ★</p>
+      <a href="#hero" class="top">back to the rain ↑</a>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
